@@ -1,3 +1,23 @@
+# 📊 CodeAlpha Student Grade Tracker
+
+This is a simple **Java console application** built to manage and analyze student grades.  
+It was developed as part of the **CodeAlpha Java Programming Internship**.
+
+---
+
+## 💡 Features
+
+- Input names and grades for multiple students
+- Calculate:
+  - 📌 Average Grade
+  - 🏆 Highest Grade
+  - ⚠️ Lowest Grade
+- Display summary report in console
+- Written using core Java (no external libraries)
+
+---
+
+## 🖥️ Code
 import java.util.*;
 
 public class StudentGradeTracker {
@@ -47,7 +67,7 @@ public class StudentGradeTracker {
         scanner.close();
     }
 }
-Output :
+## 🖥️ Output
 Enter number of students: 3
 Enter name of student 1: Alice
 Enter grade of Alice: 85
